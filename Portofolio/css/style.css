@@ -1,0 +1,59 @@
+header nav ul {
+    text-align: right;  
+    display: flex;            
+    list-style: none;         
+    gap: 20px;                
+    justify-content: right;  
+}
+
+header nav ul li a {
+    color: darkred;
+    font-weight: bold;
+}
+
+header h1 {
+    text-align: center;
+    color: brown;
+}
+
+header h3 {
+    text-align: center;
+    color: darkslategray;
+}
+
+header p {
+    text-align: center;
+    color: black;
+}
+
+
+section img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+
+section h2 {
+    color: crimson;
+    text-align: center;
+    border: 2px dashed rgba(255, 176, 170, 0.5);
+    margin-bottom: 10px;
+}
+
+
+section p {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+footer nav ul{
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+}

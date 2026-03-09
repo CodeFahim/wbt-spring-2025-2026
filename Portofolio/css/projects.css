@@ -1,0 +1,17 @@
+header nav ul {
+    text-align: right;   
+    margin-bottom: 15px;
+    display: flex;            
+    list-style: none;         
+    gap: 20px;                
+    justify-content: right;  
+}
+
+footer nav ul{
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+}
