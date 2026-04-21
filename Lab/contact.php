@@ -110,14 +110,16 @@
             </form>
 
             <?php if ($_SERVER["REQUEST_METHOD"] == "POST" &&
-                !$nameErr && !$lnameErr && !$emailErr && !$genderErr && !$companyErr): ?>
+                !$nameErr && !$lnameErr && !$emailErr && !$genderErr && !$companyErr && !$reasonErr && !$DateErr): ?>
                 <h3>Submitted values</h3>
                 <table class="result-table">
                     <tr><td>Name</td><td><?= $name ?></td></tr>
                     <tr><td>Last Name</td><td><?= $lname ?></td></tr>
                     <tr><td>Email</td><td><?= $email ?></td></tr>
                     <tr><td>Company</td><td><?= $company ?></td></tr>
+                    <tr><td>Reason of Contact</td><td><?= $reason ?></td></tr>
                     <tr><td>Gender</td><td><?= $gender ?></td></tr>
+                    <tr><td>Consultation Date</td><td><?= $date ?></td></tr>
                 </table>
             <?php endif; ?>
 
